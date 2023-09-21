@@ -1,3 +1,51 @@
+/*
+Background color: #fcf1d8
+Pink: #f2cbbb
+Gray: #949494
+Brown: #b7a890
+*/
+
 body {
-  color: blue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  background-color: #fcf1d8;
+  margin: 0;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  background-color: #f2cbbb;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#nav * {
+  display: inline;
+  color: black;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  margin-left: 50px;
+}
+
+#nav li a:hover {
+  color: #949494;
+  text-decoration: none;
+}
+
+#content {
+  color: #b7a890;
+  padding: 20px;
 }
