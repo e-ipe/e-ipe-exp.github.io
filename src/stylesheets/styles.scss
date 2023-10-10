@@ -2,12 +2,12 @@
 Background color: #fcf1d8
 Pink: #f2cbbb
 Gray: #949494
-Brown: #b7a890
+Brown: #48260D
 */
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: black;
+  color: #48260D;
   background-color: #fcf1d8;
   margin: 0;
   width: 100%;
@@ -28,7 +28,7 @@ p {
 
 #nav * {
   display: inline;
-  color: black;
+  color: #48260D;
 }
 
 #nav ul {
@@ -46,6 +46,14 @@ p {
 }
 
 #content {
-  color: #b7a890;
+  color: #48260D;
   padding: 20px;
+  text-align: center;
+}
+
+#portrait {
+  width: 750px;
+  height: 500px;
+  display: block;
+  margin: 0 auto 20px;
 }
