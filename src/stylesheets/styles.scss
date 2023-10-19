@@ -8,7 +8,7 @@ Brown: #48260D
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #48260D;
-  background-color: #fcf1d8;
+  background-color: #faf8ea;
   margin: 0;
   width: 100%;
 }
@@ -19,7 +19,7 @@ p {
 }
 
 #nav {
-  background-color: #f2cbbb;
+  background-color: #f8dbd0;
   height: 50px;
   display: flex;
   justify-content: flex-start;
@@ -51,9 +51,22 @@ p {
   text-align: center;
 }
 
+#projects {
+  color: #48260D;
+  padding: 20px;
+  text-align: left;
+}
+
+
 #portrait {
   width: 750px;
   height: 500px;
   display: block;
   margin: 0 auto 20px;
 }
+
+#images {
+  float:left;
+}
+
+
